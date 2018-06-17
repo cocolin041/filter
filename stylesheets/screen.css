@@ -1,0 +1,268 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/partials/header.scss */
+header {
+  background-color: #7828B4;
+  padding: 24px 0;
+}
+/* line 4, ../sass/partials/header.scss */
+header .web-name {
+  text-align: center;
+  line-height: 45px;
+  font-family: "Optima-ExtraBlack";
+  font-size: 36px;
+  color: #FFFFFF;
+}
+/* line 11, ../sass/partials/header.scss */
+header .explore-activity {
+  font-size: 20px;
+  border-bottom: 1px solid #FFFFFF;
+  width: 388px;
+}
+/* line 17, ../sass/partials/header.scss */
+header .explore-activity span i {
+  color: #FFFFFF;
+}
+/* line 22, ../sass/partials/header.scss */
+header .explore-activity input {
+  height: 100%;
+  line-height: 24px;
+  background-color: inherit;
+  border: none;
+  width: 90%;
+}
+/* line 29, ../sass/partials/header.scss */
+header .explore-activity input::placeholder {
+  font-family: "Roboto-Italic" !important;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 1, ../sass/partials/main.scss */
+main {
+  background-color: #F2F2F2;
+  min-height: 100vh;
+}
+/* line 6, ../sass/partials/main.scss */
+main .filter {
+  background-color: #EBEBEB;
+}
+/* line 10, ../sass/partials/main.scss */
+main .filter > div {
+  margin-left: 40px;
+}
+/* line 13, ../sass/partials/main.scss */
+main .filter > div > div {
+  font-family: "Roboto-Bold";
+  color: #000000;
+  font-size: 20px;
+  line-height: 24px;
+}
+/* line 20, ../sass/partials/main.scss */
+main .filter hr {
+  border: 1px solid #D7D7D7;
+  margin: 0;
+}
+/* line 25, ../sass/partials/main.scss */
+main .filter .location_filter {
+  padding: 24px 0;
+}
+/* line 27, ../sass/partials/main.scss */
+main .filter .location_filter select {
+  margin-top: 15px;
+  width: 220px;
+}
+/* line 32, ../sass/partials/main.scss */
+main .filter .ticket_filter {
+  padding: 24px 0;
+}
+/* line 34, ../sass/partials/main.scss */
+main .filter .ticket_filter > div {
+  margin-bottom: 26px;
+}
+/* line 37, ../sass/partials/main.scss */
+main .filter .ticket_filter input {
+  margin-top: 8px;
+}
+/* line 41, ../sass/partials/main.scss */
+main .filter .opentime_filter {
+  padding: 24px 0;
+}
+/* line 43, ../sass/partials/main.scss */
+main .filter .opentime_filter > div {
+  margin-bottom: 26px;
+}
+/* line 46, ../sass/partials/main.scss */
+main .filter .opentime_filter input {
+  margin-top: 8px;
+}
+/* line 52, ../sass/partials/main.scss */
+main #content-button {
+  padding-bottom: 50px;
+}
+/* line 58, ../sass/partials/main.scss */
+main #content-button #content-container .content {
+  display: none;
+  margin: 20px 0;
+  max-height: 208.75px;
+  overflow: hidden;
+}
+/* line 64, ../sass/partials/main.scss */
+main #content-button #content-container .content:hover {
+  max-height: none;
+}
+/* line 68, ../sass/partials/main.scss */
+main #content-button #content-container .content .col-4 {
+  padding-right: 0;
+}
+/* line 71, ../sass/partials/main.scss */
+main #content-button #content-container .content .col-8 {
+  padding-left: 0;
+}
+/* line 76, ../sass/partials/main.scss */
+main #content-button #content-container .content .picture {
+  width: 100%;
+}
+/* line 78, ../sass/partials/main.scss */
+main #content-button #content-container .content .picture img {
+  width: 100%;
+}
+/* line 85, ../sass/partials/main.scss */
+main #content-button #content-container .content .shortcut {
+  background-color: white;
+  height: 100%;
+  padding: 10px 20px;
+}
+/* line 91, ../sass/partials/main.scss */
+main #content-button #content-container .content .shortcut .title {
+  font-family: "Roboto-Bold";
+  font-size: 20px;
+  color: #9013FE;
+}
+/* line 99, ../sass/partials/main.scss */
+main #content-button #content-container .content .shortcut .description {
+  font-family: "Roboto-Regular";
+  font-size: 14px;
+  color: #000000;
+  line-height: 20px;
+  margin-top: 16px;
+  max-height: 80px;
+  overflow: hidden;
+}
+/* line 110, ../sass/partials/main.scss */
+main #content-button #content-container .content .shortcut .keyword-tag {
+  font-size: 14px;
+  color: #000000;
+  margin-top: 16px;
+}
+/* line 116, ../sass/partials/main.scss */
+main #content-button #content-container .content .shortcut .keyword-tag .keyword {
+  font-weight: bold;
+  margin-right: 36px;
+}
+/* line 121, ../sass/partials/main.scss */
+main #content-button #content-container .content .shortcut .keyword-tag .tag {
+  background: #D7D7D7;
+  border-radius: 100px;
+  font-family: "Roboto-Italic";
+  color: #FFFFFF;
+  text-align: center;
+}
+/* line 130, ../sass/partials/main.scss */
+main #content-button #content-container .content .shortcut .location-opentime {
+  margin-top: 16px;
+  font-family: "Roboto-Regular";
+  font-size: 14px;
+  color: #9B9B9B;
+}
+/* line 136, ../sass/partials/main.scss */
+main #content-button #content-container .content .shortcut .location-opentime > span {
+  margin-right: 20px;
+}
+/* line 139, ../sass/partials/main.scss */
+main #content-button #content-container .content .shortcut .location-opentime .see-more {
+  float: right;
+}
+/* line 147, ../sass/partials/main.scss */
+main #content-button #pages-button {
+  float: right;
+}
+/* line 149, ../sass/partials/main.scss */
+main #content-button #pages-button button {
+  float: left;
+  background: #FFFFFF;
+  border: 1px solid #ECEEEF;
+  height: 42px;
+  width: 41px;
+}
+
+/* line 10, ../sass/screen.scss */
+.container {
+  max-width: 1300px;
+}

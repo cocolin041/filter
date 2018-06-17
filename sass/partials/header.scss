@@ -1,0 +1,37 @@
+header {
+  background-color: #7828B4;
+  padding: 24px 0;
+  .web-name {
+    text-align: center;
+    line-height: 45px;
+    font-family: "Optima-ExtraBlack";
+    font-size: 36px;
+    color: #FFFFFF;
+  }
+  .explore-activity {
+    font-size: 20px;
+    border-bottom: 1px solid #FFFFFF;
+    width: 388px;
+
+    span {
+      i {
+        color: #FFFFFF;
+      }
+    }
+
+    input {
+      height: 100%;
+      line-height: 24px;
+      background-color: inherit;
+      border: none;
+      width: 90%;
+
+      &::placeholder {
+        font-family: "Roboto-Italic" !important;
+        color: rgba(255,255,255,0.50);
+      }
+
+    }
+
+  }
+}

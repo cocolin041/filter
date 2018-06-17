@@ -1,0 +1,157 @@
+/* line 1, ../../sass/partials/main.scss */
+main {
+  background-color: #F2F2F2;
+  min-height: 100vh;
+}
+/* line 6, ../../sass/partials/main.scss */
+main .filter {
+  background-color: #EBEBEB;
+}
+/* line 10, ../../sass/partials/main.scss */
+main .filter > div {
+  margin-left: 40px;
+}
+/* line 13, ../../sass/partials/main.scss */
+main .filter > div > div {
+  font-family: "Roboto-Bold";
+  color: #000000;
+  font-size: 20px;
+  line-height: 24px;
+}
+/* line 20, ../../sass/partials/main.scss */
+main .filter hr {
+  border: 1px solid #D7D7D7;
+  margin: 0;
+}
+/* line 25, ../../sass/partials/main.scss */
+main .filter .location_filter {
+  padding: 24px 0;
+}
+/* line 27, ../../sass/partials/main.scss */
+main .filter .location_filter select {
+  margin-top: 15px;
+  width: 220px;
+}
+/* line 32, ../../sass/partials/main.scss */
+main .filter .ticket_filter {
+  padding: 24px 0;
+}
+/* line 34, ../../sass/partials/main.scss */
+main .filter .ticket_filter > div {
+  margin-bottom: 26px;
+}
+/* line 37, ../../sass/partials/main.scss */
+main .filter .ticket_filter input {
+  margin-top: 8px;
+}
+/* line 41, ../../sass/partials/main.scss */
+main .filter .opentime_filter {
+  padding: 24px 0;
+}
+/* line 43, ../../sass/partials/main.scss */
+main .filter .opentime_filter > div {
+  margin-bottom: 26px;
+}
+/* line 46, ../../sass/partials/main.scss */
+main .filter .opentime_filter input {
+  margin-top: 8px;
+}
+/* line 52, ../../sass/partials/main.scss */
+main #content-button {
+  padding-bottom: 50px;
+}
+/* line 58, ../../sass/partials/main.scss */
+main #content-button #content-container .content {
+  display: none;
+  margin: 20px 0;
+  max-height: 208.75px;
+  overflow: hidden;
+}
+/* line 64, ../../sass/partials/main.scss */
+main #content-button #content-container .content:hover {
+  max-height: none;
+}
+/* line 68, ../../sass/partials/main.scss */
+main #content-button #content-container .content .col-4 {
+  padding-right: 0;
+}
+/* line 71, ../../sass/partials/main.scss */
+main #content-button #content-container .content .col-8 {
+  padding-left: 0;
+}
+/* line 76, ../../sass/partials/main.scss */
+main #content-button #content-container .content .picture {
+  width: 100%;
+}
+/* line 78, ../../sass/partials/main.scss */
+main #content-button #content-container .content .picture img {
+  width: 100%;
+}
+/* line 85, ../../sass/partials/main.scss */
+main #content-button #content-container .content .shortcut {
+  background-color: white;
+  height: 100%;
+  padding: 10px 20px;
+}
+/* line 91, ../../sass/partials/main.scss */
+main #content-button #content-container .content .shortcut .title {
+  font-family: "Roboto-Bold";
+  font-size: 20px;
+  color: #9013FE;
+}
+/* line 99, ../../sass/partials/main.scss */
+main #content-button #content-container .content .shortcut .description {
+  font-family: "Roboto-Regular";
+  font-size: 14px;
+  color: #000000;
+  line-height: 20px;
+  margin-top: 16px;
+  max-height: 80px;
+  overflow: hidden;
+}
+/* line 110, ../../sass/partials/main.scss */
+main #content-button #content-container .content .shortcut .keyword-tag {
+  font-size: 14px;
+  color: #000000;
+  margin-top: 16px;
+}
+/* line 116, ../../sass/partials/main.scss */
+main #content-button #content-container .content .shortcut .keyword-tag .keyword {
+  font-weight: bold;
+  margin-right: 36px;
+}
+/* line 121, ../../sass/partials/main.scss */
+main #content-button #content-container .content .shortcut .keyword-tag .tag {
+  background: #D7D7D7;
+  border-radius: 100px;
+  font-family: "Roboto-Italic";
+  color: #FFFFFF;
+  text-align: center;
+}
+/* line 130, ../../sass/partials/main.scss */
+main #content-button #content-container .content .shortcut .location-opentime {
+  margin-top: 16px;
+  font-family: "Roboto-Regular";
+  font-size: 14px;
+  color: #9B9B9B;
+}
+/* line 136, ../../sass/partials/main.scss */
+main #content-button #content-container .content .shortcut .location-opentime > span {
+  margin-right: 20px;
+}
+/* line 139, ../../sass/partials/main.scss */
+main #content-button #content-container .content .shortcut .location-opentime .see-more {
+  float: right;
+}
+/* line 147, ../../sass/partials/main.scss */
+main #content-button #pages-button {
+  float: right;
+}
+/* line 149, ../../sass/partials/main.scss */
+main #content-button #pages-button button {
+  float: left;
+  background: #FFFFFF;
+  border: 1px solid #ECEEEF;
+  height: 42px;
+  width: 41px;
+}

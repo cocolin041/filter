@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheets/screen.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <!--header-->
+  <header>
+    <div class="container">
+      <div class="row">
+
+        <!--web name-->
+        <div class="col-3">
+          <div class="web-name">HaveFun</div>
+        </div>
+
+        <!--search-->
+        <div class="col-9">
+          <div class="explore-activity">
+            <span><i class="fas fa-search"></i></span>
+            <input type = "text" placeholder = "Explore your own ctivities">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!--main-->
+  <main>
+
+    <div class="container">
+      <div class="row">
+
+        <!--filter-->
+        <div class="col-3">
+          <div class="filter">
+
+            <div class="location_filter">
+              <div>地區</div>
+            </div>
+
+            <hr>
+
+            <div class="ticket_filter">
+              <div>門票</div>
+              <input type="checkbox" name="ticket" value="免費"> 免費<br>
+              <input type="checkbox" name="ticket" value="付費"> 付費<br>
+            </div>
+
+            <hr>
+
+            <div class="opentime_filter">
+              <div>開放時間</div>
+              <input type="checkbox" name="opentime" value="monday"> 週一<br>
+              <input type="checkbox" name="opentime" value="tuesday"> 週二<br>
+              <input type="checkbox" name="opentime" value="wednsday"> 週三<br>
+              <input type="checkbox" name="opentime" value="thursday"> 週四<br>
+              <input type="checkbox" name="opentime" value="friday"> 週五<br>
+              <input type="checkbox" name="opentime" value="sataurday"> 週六<br>
+              <input type="checkbox" name="opentime" value="sunday"> 週日<br>
+            </div>
+
+          </div>
+        </div>
+
+        
+        <div id="content-button" class="col-9">
+          <div id="content-container">
+<!--
+            <div class="content">
+              
+              <div class="row">
+
+                
+                <div class="col-4">
+                  <div class="picture">
+                    <img src="https://khh.travel/FileArtPic.ashx?id=3289&w=1280&h=960" alt="pic">
+                  </div>
+                </div>
+
+                
+                <div class="col-8">
+                  <div class="shortcut">
+
+                    
+                    <div class="title">高雄願景館</div>
+
+                    
+                    <p class="description">
+                      高雄願景館的前身是日治時期興建的高雄市舊火車站，
+                      外觀是”和洋混合式建築”氣勢雄偉，內部則為西式的玄關及大廳。2002年為了配合鐵路、捷運、高鐵的三鐵共
+                      構，這棟老火車站建築物遷移到附近的空地上，並由市府
+                    </p>
+
+                    
+                    <div class="keyword-tag">
+                      
+                      <span class="keyword">高雄願景館</span>
+                      
+                      <span class="tag">免費參觀</span>
+                    </div>
+
+                    
+                    <div class="location-opentime">
+                      
+                      <span class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Zone</span>
+                      </span>
+                      
+                      <span class="opentime">
+                        <i class="far fa-calendar-alt"></i>
+                        <span>2018/01/01~</span>
+                      </span>
+
+                      <span class="see-more">查看更多</span>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+        -->
+          </div>
+                    
+          <div id="pages-button">
+            <button><i class="fas fa-angle-double-left"></i></button>
+            <!--
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <script src="./src/see_more.js"></script>
+  <script src="./src/get_articles.js"></script>
+  <script src="./src/insert_button.js"></script>
+  <script src="./src/change_page.js"></script>
+  <script src="./src/insert_article.js"></script>
+  <script src="./src/filter.js"></script>
+</body>

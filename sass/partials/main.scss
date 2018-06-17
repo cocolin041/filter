@@ -1,0 +1,158 @@
+main {
+  background-color: #F2F2F2;
+  min-height: 100vh;
+
+  //filter
+  .filter {
+    background-color: #EBEBEB;
+
+    //filter div
+    > div {
+      margin-left: 40px;
+      //title
+      > div {
+        font-family: "Roboto-Bold";
+        color: #000000;
+        font-size: 20px;
+        line-height: 24px;
+      }
+    }
+    hr {
+      //color: black;
+      border: 1px solid #D7D7D7;
+      margin: 0;
+    }
+    .location_filter {
+      padding: 24px 0;
+      select {
+        margin-top: 15px;
+        width: 220px;
+      }
+    }
+    .ticket_filter {
+      padding: 24px 0;
+      > div {
+        margin-bottom: 26px;
+      }
+      input {
+        margin-top: 8px;
+      }
+    }
+    .opentime_filter {
+      padding: 24px 0;
+      > div {
+        margin-bottom: 26px;
+      }
+      input {
+        margin-top: 8px;
+      }
+    }
+
+  }
+  #content-button {
+    padding-bottom: 50px;
+
+    #content-container {
+      
+      //content
+      .content {
+        display: none;
+        margin: 20px 0;
+        max-height: 208.75px;
+        overflow: hidden;
+  
+        &:hover {
+          max-height: none;
+        }
+  
+        .col-4 {
+          padding-right: 0;
+        }
+        .col-8 {
+          padding-left: 0;
+        }
+  
+        //picture: left
+        .picture {
+          width: 100%;
+          img {
+            width: 100%;
+          }
+        }
+  
+        
+        //shortcut
+        .shortcut {
+          background-color: white;
+          height: 100%;
+          padding: 10px 20px;
+  
+          //title
+          .title {
+            font-family: "Roboto-Bold";
+            font-size: 20px;
+            color: #9013FE;
+            //line-height: 36px;
+          }
+  
+          //description
+          .description {
+            font-family: "Roboto-Regular";
+            font-size: 14px;
+            color: #000000;
+            line-height: 20px;
+            margin-top: 16px;
+            max-height: 80px;
+            overflow: hidden;
+          }
+  
+          //keyword-tag
+          .keyword-tag {
+            font-size: 14px;
+            color: #000000;
+            margin-top: 16px;
+            
+            //keyword
+            .keyword {
+              font-weight: bold;
+              margin-right: 36px;
+            }
+            //tag
+            .tag {
+              background: #D7D7D7;
+              border-radius: 100px;
+              font-family: "Roboto-Italic";
+              color: #FFFFFF;
+              text-align: center;
+            }
+          }
+          //location-opentime
+          .location-opentime {
+            margin-top: 16px;
+            font-family: "Roboto-Regular";
+            font-size: 14px;
+            color: #9B9B9B;
+            
+            > span {
+              margin-right: 20px;
+            }
+            .see-more {
+              float: right;
+            }
+          }
+  
+        }
+      }
+    }
+    #pages-button {
+      float: right;
+      button {
+        float: left;
+        background: #FFFFFF;
+        border: 1px solid #ECEEEF;
+        height: 42px;
+        width: 41px;
+      }
+    }
+  }
+}
