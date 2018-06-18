@@ -17,11 +17,13 @@ function change_page(ev, article_class, article_number) {
   var content = document.getElementsByClassName("content");
   for (i = 0; i < content.length; i++) {
     content[i].style.display = "none";
+    article_type[i].className = "content";
   }
 
   //show the click page button's article
   var article_type = document.getElementsByClassName(article_class);
   for (i = (articles_per_page * page); i < (articles_per_page * (page + 1)); i++) {
     article_type[i].style.display = "block";
+    article_type[i].className = "content active";
   }
 }

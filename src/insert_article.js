@@ -104,7 +104,7 @@ function generate_article(number) {
               see_more.className = "see-more";
               see_more.innerHTML = "查看更多...";
               see_more.addEventListener("click", function() {
-                see_more(event);
+                see_more_fn(event);
               })
 
             //finish location_opentime: append location_opentime with location and opentime

@@ -35,6 +35,7 @@ xhttp.onreadystatechange = function() {
     var content = document.getElementsByClassName("content");
     for (i = 0; i < articles_per_page; i++) {
       content[i].style.display = "block";
+      content[i].className = "content active";
     }
     //generate buttons according to the length of content
     calculate_buttons("content", content.length);
